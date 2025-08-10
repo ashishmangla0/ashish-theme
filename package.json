@@ -1,6 +1,6 @@
 {
   "name": "my-theme-pack",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "A collection of multiple themes as CSS files for Next.js, React, and other projects",
   "main": "index.js",
   "type": "commonjs",
@@ -10,11 +10,29 @@
     "README.md",
     "LICENSE"
   ],
-  "keywords": ["themes", "css", "nextjs", "react", "design-system", "yarn", "npm"],
+  "keywords": [
+    "themes",
+    "css",
+    "nextjs",
+    "react",
+    "design-system",
+    "yarn",
+    "npm"
+  ],
   "author": "Your Name",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/ashishmangla0/ashish-theme.git"
+  },
+  "dependencies": {
+    "scss": "^0.2.4"
+  },
+  "scripts": {
+    "build": "sass src:dist --no-source-map",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "sass": "^1.90.0"
   }
 }
