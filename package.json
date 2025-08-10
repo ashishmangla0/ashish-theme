@@ -1,5 +1,5 @@
 {
-  "name": "my-theme-pack",
+  "name": "ashish-theme",
   "version": "1.0.4",
   "description": "A collection of multiple themes as CSS files for Next.js, React, and other projects",
   "main": "index.js",
@@ -19,7 +19,7 @@
     "yarn",
     "npm"
   ],
-  "author": "Your Name",
+  "author": "ashish mangla",
   "license": "MIT",
   "repository": {
     "type": "git",
